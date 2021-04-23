@@ -1,0 +1,108 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+/* happy section */
+
+.happy {
+  padding: 5rem 0;
+}
+
+.happy .text-birthday {
+  margin-bottom: 2rem;
+  font-size: 2.441rem;
+  color: #243141;
+  font-weight: 300;
+}
+
+.happy .text-name {
+  color: #546EE8;
+  margin-bottom: 2rem;
+  font-size: 3.052rem;
+  font-weight: 400;
+}
+
+.happy .text-date {
+  font-size: 1.563rem;
+  color: #243141;
+  font-weight: 300;
+}
+
+.happy img {
+  width: 70%;
+}
+
+/* end happy section */
+
+/* letter section */
+
+.letter {
+  padding: 5rem 0;
+  background-color: #F8F9FA;
+}
+
+.letter img {
+  width: 80%;
+}
+
+.letter .title {
+  font-size: 2.441rem;
+  color: #546EE8;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.letter .description {
+  font-size: 1rem;
+  color: #8A94A6;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* end section letter */
+
+/* love */
+
+.love {
+  padding: 3rem 0;
+}
+
+.love .title {
+  font-size: 1.563rem;
+  color: #546EE8;
+  font-weight: 400;
+}
+
+/* end love section */
+
+/* footer */
+
+footer {
+  background-color: #F8F9FA;
+  padding: 2rem 0;
+}
+
+footer .title {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #8A94A6;
+  font-weight: 300;
+}
+
+footer i.bi-heart-fill {
+  color: #546EE8;  
+}
+
+/* end footer section */
+
+/* mobile version */
+
+@media only screen and (max-width: 768px) {
+  .happy, .letter, .love, footer {
+    text-align: center;
+  }
+
+  .happy img, .letter img {
+    margin-bottom: 3rem;
+  }
+}
